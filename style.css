@@ -1,0 +1,175 @@
+body {
+    margin: 0%;
+    background-image: url(assets/Layer_20.png);
+    background-size: cover;
+
+}
+
+.container {
+    justify-content: space-between;
+    width: 1024px;
+    margin: auto;
+    display: flex;
+}
+
+#logo-name {
+    margin-top: 26px;
+    display: flex;
+}
+
+#logo {
+    width: 88px;
+    height: 86px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(assets/Shape_8_copy_3.svg), url(assets/Shape_8_copy_4.svg); 
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#name h1 {
+    margin-left: 3px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "OpenSans-Light";
+    font-size: 30pt;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: 71px;
+    margin-right: 2px;
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    box-shadow: -4px -4px 0 rgba(245,197,6,0.5), -8px -8px 0 rgba(245,197,6,0.25);
+}
+
+ul {
+    padding: 0;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 38px;
+    
+}
+
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    flex-grow: 1;
+    
+}
+
+ul li a {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "SegoeWP";
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+ul li a:hover {
+    color: #000000;
+}
+
+#about {
+    padding-left: 32px;
+    background: url(assets/Shape_5.svg) no-repeat 0 4px;
+    background-position: left;
+
+}
+
+#services {
+    padding-left: 30px;
+    margin-left: 12px;
+    background: url(assets/Shape_6.svg) no-repeat 0 4px;
+    background-position: left;
+
+}
+
+#contact {
+    padding-left: 31px;
+    margin-left: 14px;
+    background: url(assets/Shape_7.svg) no-repeat 0 4px;
+    background-position: left;
+
+}
+
+#video-section {
+    display: flex;
+    margin-top: 45px;
+
+}
+
+#video-section .container div {
+    margin-top: 72px;
+    text-align: center;
+
+}
+
+#video-section div video {
+    margin-left: 12px;
+
+}
+
+.top-text {
+    margin: 0px; 
+    text-transform: uppercase;
+    font-size: 63px;
+    letter-spacing: 0.7px;
+    color: #f5c506;
+    font-family: "Asap";
+
+}
+
+.the-minimal {
+    margin-left: 34px;
+    margin-top: -4px;
+    margin-right: 19px;
+    color: #ffffff;
+    
+}
+
+.ctrl {
+    margin-top: 133px;
+    width: 32px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5c506;
+
+}
+
+.ctrl:hover {
+    -webkit-transform: scale(1.2);
+
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(assets/OpenSans-Light.ttf);
+    
+}
+
+@font-face {
+    font-family: "SegoeWP";
+    src: url(assets/SegoeWP.ttf);
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url(assets/Asap-Regular.otf);
+    
+}
+
